@@ -21,7 +21,7 @@ class Solution:
 # Solution code
 s = Solution()
 a = [3, 1, 2, 5, 3]
-print(s.repeatedNumber(a)))
+print(s.repeatedNumber(A)))
 
 # output: [3, 4]
 # repeating = 3 , missing = 4

@@ -21,7 +21,7 @@ _______________|_____________
 [2 2]          | 000
 [2 3]          | 001
 
-We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we ret
+We see that two pairs [1, 1] and [1, 3] give same number of 1s in final string. So, we return [1, 1].
 
 Another example,
 If S = 111

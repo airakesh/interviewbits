@@ -1,8 +1,8 @@
 class Solution:
     # @param A : list of integers
     # @return a list of integers
-    def plusOne(self, a):
-        t = list(map(str, a))
+    def plusOne(self, A):
+        t = list(map(str, A))
         p = ''.join(t)
         num = int(p) + 1
         num = str(num)
@@ -14,5 +14,5 @@ class Solution:
             
 # Answer code            
 s = Solution()
-a = [1, 2, 3, 4]
-print(s.plusOne(a))
+A = [1, 2, 3, 4]
+print(s.plusOne(A))

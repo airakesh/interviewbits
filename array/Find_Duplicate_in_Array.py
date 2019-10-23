@@ -20,17 +20,17 @@ class Solution:
     # @param A : tuple of integers
     # @return an integer
     def repeatedNumber(self, A):
-        prev = A[0]
+        curr = A[0]
         next = A[A[0]]
-        while prev != next:
-            prev = A[prev]
+        while curr != next:
+            curr = A[prev]
             next = A[A[next]]
 
         next = 0
-        while prev != next:
-            prev = A[prev]
+        while curr != next:
+            curr = A[curr]
             next = A[next]
 
-        if prev == 0:
+        if curr == 0:
             return -1
-        return prev
+        return curr

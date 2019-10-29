@@ -18,4 +18,4 @@ s = Solution()
 A = [0, 1, 1]
 B = [0, 1, 2]
 
-print(s.coverPoints(A, B))
+s.coverPoints(A, B)

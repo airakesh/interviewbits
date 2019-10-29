@@ -1,2 +1,2 @@
 # InterviewBits
-Interview Programming in Python 3
+Interview Programming

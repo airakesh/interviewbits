@@ -15,7 +15,7 @@ class Solution:
     # @return an integer
     def isPalindrome(self, A):
         A = ''.join(c.lower() for c in A if c.isalnum())
-        # print(int(A == A[::-1]))
+        # print(A)
         # print(A[::-1])
         if A == A[::-1]:
             return 1

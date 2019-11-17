@@ -67,10 +67,10 @@ class Solution:
     def findMaxXor(self, A):
         ans = mask = 0
 
-        for x in range(len(A))[::-1]:
-            mask += 1 << x
+        for i in range(len(A))[::-1]:
+            mask += 1 << i
             prefixSet = set([n & mask for n in A])
-            temp = ans | 1 << x
+            temp = ans | 1 << i
             for prefix in prefixSet:
                 if temp ^ prefix in prefixSet:
                     ans = temp
